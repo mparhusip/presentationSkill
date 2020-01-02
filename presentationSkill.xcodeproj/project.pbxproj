@@ -12,7 +12,60 @@
 		31FC068E2332697A000FEAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FC068C2332697A000FEAB9 /* Main.storyboard */; };
 		31FC06902332697B000FEAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FC068F2332697B000FEAB9 /* Assets.xcassets */; };
 		31FC06932332697B000FEAB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FC06912332697B000FEAB9 /* LaunchScreen.storyboard */; };
+		31FC069D23326990000FEAB9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FC069C23326990000FEAB9 /* HealthKit.framework */; };
+		31FC069F23334D5A000FEAB9 /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC069E23334D5A000FEAB9 /* BreathingViewController.swift */; };
+		31FC06A623338C9D000FEAB9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FC06A423338C9D000FEAB9 /* Interface.storyboard */; };
+		31FC06A823338C9E000FEAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FC06A723338C9E000FEAB9 /* Assets.xcassets */; };
+		31FC06AF23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 31FC06AE23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31FC06B423338C9E000FEAB9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC06B323338C9E000FEAB9 /* InterfaceController.swift */; };
+		31FC06B623338C9E000FEAB9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC06B523338C9E000FEAB9 /* ExtensionDelegate.swift */; };
+		31FC06B823338C9E000FEAB9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FC06B723338C9E000FEAB9 /* NotificationController.swift */; };
+		31FC06BA23338C9F000FEAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FC06B923338C9F000FEAB9 /* Assets.xcassets */; };
+		31FC06BF23338C9F000FEAB9 /* presentationSkillWatchKitApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 31FC06A223338C9D000FEAB9 /* presentationSkillWatchKitApp.app */; };
+		31FC06CB2333C710000FEAB9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FC06CA2333C710000FEAB9 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31FC06B023338C9E000FEAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FC067D2332697A000FEAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FC06AD23338C9E000FEAB9;
+			remoteInfo = "presentationSkillWatchKitApp Extension";
+		};
+		31FC06BD23338C9F000FEAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FC067D2332697A000FEAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FC06A123338C9D000FEAB9;
+			remoteInfo = presentationSkillWatchKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31FC06C323338C9F000FEAB9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				31FC06AF23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC06C723338C9F000FEAB9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				31FC06BF23338C9F000FEAB9 /* presentationSkillWatchKitApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		31FC06852332697A000FEAB9 /* presentationSkill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presentationSkill.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +75,23 @@
 		31FC068F2332697B000FEAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31FC06922332697B000FEAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31FC06942332697B000FEAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FC069A23326990000FEAB9 /* presentationSkill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = presentationSkill.entitlements; sourceTree = "<group>"; };
+		31FC069C23326990000FEAB9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		31FC069E23334D5A000FEAB9 /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		31FC06A223338C9D000FEAB9 /* presentationSkillWatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presentationSkillWatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FC06A523338C9D000FEAB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		31FC06A723338C9E000FEAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FC06A923338C9E000FEAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FC06AE23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "presentationSkillWatchKitApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FC06B323338C9E000FEAB9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		31FC06B523338C9E000FEAB9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		31FC06B723338C9E000FEAB9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		31FC06B923338C9F000FEAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FC06BB23338C9F000FEAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FC06BC23338C9F000FEAB9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		31FC06C82333C6FE000FEAB9 /* presentationSkillWatchKitApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = presentationSkillWatchKitApp.entitlements; sourceTree = "<group>"; };
+		31FC06C92333C705000FEAB9 /* presentationSkillWatchKitApp Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "presentationSkillWatchKitApp Extension.entitlements"; sourceTree = "<group>"; };
+		31FC06CA2333C710000FEAB9 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +99,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FC069D23326990000FEAB9 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC06AB23338C9E000FEAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC06CB2333C710000FEAB9 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				31FC06872332697A000FEAB9 /* presentationSkill */,
+				31FC06A323338C9D000FEAB9 /* presentationSkillWatchKitApp */,
+				31FC06B223338C9E000FEAB9 /* presentationSkillWatchKitApp Extension */,
 				31FC06862332697A000FEAB9 /* Products */,
+				31FC069B23326990000FEAB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				31FC06852332697A000FEAB9 /* presentationSkill.app */,
+				31FC06A223338C9D000FEAB9 /* presentationSkillWatchKitApp.app */,
+				31FC06AE23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +138,50 @@
 		31FC06872332697A000FEAB9 /* presentationSkill */ = {
 			isa = PBXGroup;
 			children = (
+				31FC069A23326990000FEAB9 /* presentationSkill.entitlements */,
 				31FC06882332697A000FEAB9 /* AppDelegate.swift */,
 				31FC068A2332697A000FEAB9 /* ViewController.swift */,
 				31FC068C2332697A000FEAB9 /* Main.storyboard */,
+				31FC069E23334D5A000FEAB9 /* BreathingViewController.swift */,
 				31FC068F2332697B000FEAB9 /* Assets.xcassets */,
 				31FC06912332697B000FEAB9 /* LaunchScreen.storyboard */,
 				31FC06942332697B000FEAB9 /* Info.plist */,
 			);
 			path = presentationSkill;
+			sourceTree = "<group>";
+		};
+		31FC069B23326990000FEAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FC06CA2333C710000FEAB9 /* HealthKit.framework */,
+				31FC069C23326990000FEAB9 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31FC06A323338C9D000FEAB9 /* presentationSkillWatchKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				31FC06C82333C6FE000FEAB9 /* presentationSkillWatchKitApp.entitlements */,
+				31FC06A423338C9D000FEAB9 /* Interface.storyboard */,
+				31FC06A723338C9E000FEAB9 /* Assets.xcassets */,
+				31FC06A923338C9E000FEAB9 /* Info.plist */,
+			);
+			path = presentationSkillWatchKitApp;
+			sourceTree = "<group>";
+		};
+		31FC06B223338C9E000FEAB9 /* presentationSkillWatchKitApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				31FC06C92333C705000FEAB9 /* presentationSkillWatchKitApp Extension.entitlements */,
+				31FC06B323338C9E000FEAB9 /* InterfaceController.swift */,
+				31FC06B523338C9E000FEAB9 /* ExtensionDelegate.swift */,
+				31FC06B723338C9E000FEAB9 /* NotificationController.swift */,
+				31FC06B923338C9F000FEAB9 /* Assets.xcassets */,
+				31FC06BB23338C9F000FEAB9 /* Info.plist */,
+				31FC06BC23338C9F000FEAB9 /* PushNotificationPayload.apns */,
+			);
+			path = "presentationSkillWatchKitApp Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +194,51 @@
 				31FC06812332697A000FEAB9 /* Sources */,
 				31FC06822332697A000FEAB9 /* Frameworks */,
 				31FC06832332697A000FEAB9 /* Resources */,
+				31FC06C723338C9F000FEAB9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				31FC06BE23338C9F000FEAB9 /* PBXTargetDependency */,
 			);
 			name = presentationSkill;
 			productName = presentationSkill;
 			productReference = 31FC06852332697A000FEAB9 /* presentationSkill.app */;
 			productType = "com.apple.product-type.application";
+		};
+		31FC06A123338C9D000FEAB9 /* presentationSkillWatchKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FC06C423338C9F000FEAB9 /* Build configuration list for PBXNativeTarget "presentationSkillWatchKitApp" */;
+			buildPhases = (
+				31FC06A023338C9D000FEAB9 /* Resources */,
+				31FC06C323338C9F000FEAB9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FC06B123338C9E000FEAB9 /* PBXTargetDependency */,
+			);
+			name = presentationSkillWatchKitApp;
+			productName = presentationSkillWatchKitApp;
+			productReference = 31FC06A223338C9D000FEAB9 /* presentationSkillWatchKitApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		31FC06AD23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FC06C023338C9F000FEAB9 /* Build configuration list for PBXNativeTarget "presentationSkillWatchKitApp Extension" */;
+			buildPhases = (
+				31FC06AA23338C9E000FEAB9 /* Sources */,
+				31FC06AB23338C9E000FEAB9 /* Frameworks */,
+				31FC06AC23338C9E000FEAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "presentationSkillWatchKitApp Extension";
+			productName = "presentationSkillWatchKitApp Extension";
+			productReference = 31FC06AE23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +252,33 @@
 				TargetAttributes = {
 					31FC06842332697A000FEAB9 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					31FC06A123338C9D000FEAB9 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					31FC06AD23338C9E000FEAB9 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,6 +296,8 @@
 			projectRoot = "";
 			targets = (
 				31FC06842332697A000FEAB9 /* presentationSkill */,
+				31FC06A123338C9D000FEAB9 /* presentationSkillWatchKitApp */,
+				31FC06AD23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +313,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31FC06A023338C9D000FEAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC06A823338C9E000FEAB9 /* Assets.xcassets in Resources */,
+				31FC06A623338C9D000FEAB9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FC06AC23338C9E000FEAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC06BA23338C9F000FEAB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,11 +338,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FC068B2332697A000FEAB9 /* ViewController.swift in Sources */,
+				31FC069F23334D5A000FEAB9 /* BreathingViewController.swift in Sources */,
 				31FC06892332697A000FEAB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31FC06AA23338C9E000FEAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FC06B823338C9E000FEAB9 /* NotificationController.swift in Sources */,
+				31FC06B623338C9E000FEAB9 /* ExtensionDelegate.swift in Sources */,
+				31FC06B423338C9E000FEAB9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FC06B123338C9E000FEAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FC06AD23338C9E000FEAB9 /* presentationSkillWatchKitApp Extension */;
+			targetProxy = 31FC06B023338C9E000FEAB9 /* PBXContainerItemProxy */;
+		};
+		31FC06BE23338C9F000FEAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FC06A123338C9D000FEAB9 /* presentationSkillWatchKitApp */;
+			targetProxy = 31FC06BD23338C9F000FEAB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		31FC068C2332697A000FEAB9 /* Main.storyboard */ = {
@@ -157,6 +383,14 @@
 				31FC06922332697B000FEAB9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31FC06A423338C9D000FEAB9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FC06A523338C9D000FEAB9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = presentationSkill/presentationSkill.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JFNH9SG77;
 				INFOPLIST_FILE = presentationSkill/Info.plist;
@@ -300,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = presentationSkill/presentationSkill.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JFNH9SG77;
 				INFOPLIST_FILE = presentationSkill/Info.plist;
@@ -311,6 +547,92 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31FC06C123338C9F000FEAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "presentationSkillWatchKitApp Extension/presentationSkillWatchKitApp Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFNH9SG77;
+				INFOPLIST_FILE = "presentationSkillWatchKitApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleAcademy.presentationSkill.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		31FC06C223338C9F000FEAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "presentationSkillWatchKitApp Extension/presentationSkillWatchKitApp Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFNH9SG77;
+				INFOPLIST_FILE = "presentationSkillWatchKitApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleAcademy.presentationSkill.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		31FC06C523338C9F000FEAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = presentationSkillWatchKitApp/presentationSkillWatchKitApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFNH9SG77;
+				IBSC_MODULE = presentationSkillWatchKitApp_Extension;
+				INFOPLIST_FILE = presentationSkillWatchKitApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleAcademy.presentationSkill.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		31FC06C623338C9F000FEAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = presentationSkillWatchKitApp/presentationSkillWatchKitApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JFNH9SG77;
+				IBSC_MODULE = presentationSkillWatchKitApp_Extension;
+				INFOPLIST_FILE = presentationSkillWatchKitApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleAcademy.presentationSkill.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
 			};
 			name = Release;
 		};
@@ -331,6 +653,24 @@
 			buildConfigurations = (
 				31FC06982332697B000FEAB9 /* Debug */,
 				31FC06992332697B000FEAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FC06C023338C9F000FEAB9 /* Build configuration list for PBXNativeTarget "presentationSkillWatchKitApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FC06C123338C9F000FEAB9 /* Debug */,
+				31FC06C223338C9F000FEAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FC06C423338C9F000FEAB9 /* Build configuration list for PBXNativeTarget "presentationSkillWatchKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FC06C523338C9F000FEAB9 /* Debug */,
+				31FC06C623338C9F000FEAB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

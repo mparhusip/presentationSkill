@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Need your Face ID for login to this application</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Your Health data is required to get the best experience with this application</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Your Health data is required to get the best experience with this application</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Your Health data is required to get the best experience with this application</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
